@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scooteo | Lemon Interactive</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="stylesheet" href="assets/style/minify/style.min.css">
+    <link rel="stylesheet" href="assets/style/minify/home.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/595ca4abfa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ------NAVBAR------ -->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="assets/img/logo-horizontal.png" alt="logo lemon interactive"></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">L'Agence</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Nos vocations</a></li>
+                            <li><a href="#">Nos valeurs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">Nos Métiers</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Stratégie E-business</a></li>
+                            <li><a href="#">Création de site</a></li>
+                            <li><a href="#">UX Design Web et Mobile</a></li>
+                            <li><a href="#">Référencement naturel</a></li>
+                            <li><a href="#">Référencement payant</a></li>
+                            <li><a href="#">Analyse de la performance web</a></li>
+                            <li><a href="#">Webmarketing</a></li>
+                            <li><a href="#">Design de service</a></li>
+                            <li><a href="#">Notre offre Design d’Expérience</a></li>
+                            <li><a href="#">Formation Web</a></li>
+                            <li><a href="#">Formation DEX</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">Nos Références</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Site E-commerce</a></li>
+                            <li><a href="#">Site vitrine</a></li>
+                            <li><a href="#">Site B2C</a></li>
+                            <li><a href="#">Site B2B</a></li>
+                            <li><a href="#">Créateur d’entreprise</a></li>
+                            <li><a href="#">Référencement payant</a></li>
+                            <li><a href="#">SEO</a></li>
+                            <li><a href="#">Coaching SEO/SEA</a></li>
+                            <li><a href="#">Formation web</a></li>
+                            <li><a href="#">PME</a></li>
+                            <li><a href="#">Corporate</a></li>
+                            <li><a href="#">Pure Player</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">L'équipe</a></li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="#">Rejoingez-nous</a></li>
+                    <li class="responsive-search"><a href="#"><button name="search-btn" type="submit" id="search-acan"
+                                value="" onclick="searchAc();"><i class="fas fa-search"></i></button></a></li>
+                    <li><a href="#" class="button">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <div id="toggle-search">
+        <div class="blak-box"></div>
+        <div class="normal-box">
+
+            <button type="button" class="x-btn" onclick="searchKapat();"><i
+                    class="fas fa-times fa-2x"></i></button><br />
+
+            <input type="text" placeholder="Rechercher..." value="" />
+
+        </div>
+    </div>
+
+    <div id="content">
+        <!-- ------HEADER------ -->
+        <div class="header mb60">
+            <div class="container full-height">
+                <div class="row full-height">
+                    <div class="col-md-5 col-sm-7 align-self-center p-initial">
+                        <img src="assets/img/scooteo-logo.png" alt="scooteo logo" class="logo-scooteo mb50">
+                        <div class="flex">
+                            <a href="#" class="link">Acquisition</a>
+                            <a href="#" class="link">Site B2C</a>
+                            <a href="#" class="link">Site e-commerce</a>
+                        </div>
+                        <p class="quote"><i class="fas fa-quote-left fa-lg mr10"></i>Lancer notre gamme de produits pour
+                            motards et scootéristes sur le marché B2C, et sur internet<i
+                                class="fas fa-quote-right fa-lg ml10"></i></p>
+                        <div class="mt50">
+                            <a href="#" class="button">Visiter le site <i class="fas fa-chevron-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------DESCRIPTION------ -->
+        <div class="container mb60">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h1 class="title">
+                        Contexte
+                    </h1>
+                    <p>Scooteo est une marque du groupe Tetrosyl, présente sur le marché de l’équipement B2B depuis 20
+                        ans. Les casques, accessoires et protections pour les motards et scootéristes sont déjà
+                        disponibles dans de nombreux points de vente (hypermarchés, magasins spécialisés…) mais sous
+                        marque blanche principalement.</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h1 class="title">
+                        Challenge
+                    </h1>
+                    <p>Assurer le lancement de la marque Scooteo ainsi que son site e-commerce, à destination du grand
+                        public, et accroître la notoriété et faire valoir le savoir-faire du groupe sur le marché
+                        Auto/Moto.</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h1 class="title">
+                        Solution
+                    </h1>
+                    <p>Création complète du site via Prestashop, avec un univers graphique soigné. Réalisation de
+                        workshops avec des membres de l’équipe autour de la stratégie digitale. Un projet dont nous
+                        sommes fiers car Tetrosyl nous a fait entièrement confiance pour ce double enjeu : le lancement
+                        de sa marque, et de son site e-commerce !</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------VIDEO MOCKUP------ -->
+        <video autoplay muted loop class="mb60 d-flex justify-content-center">
+            <source src="assets/video/mockup-desktop.mp4" type="video/mp4">
+        </video>
+
+        <!-- ------PARTICULARITES------ -->
+        <div class="particularite container mb60">
+            <div class="row flex-column-reverse flex-md-row">
+                <div class="col-md-6 col-sm-12">
+                    <img src="assets/img/mockups-scooteo.png" alt="mockups responsive scooteo">
+                </div>
+                <div class="col-md-6 col-sm-12 align-self-center">
+                    <h2>Particularités du site</h2>
+                    <ul>
+                        <li><span class="bullet">-</span> Prestashop</li>
+                        <li><span class="bullet">-</span> Responsive</li>
+                        <li><span class="bullet">-</span> Webservice pour les commandes</li>
+                        <li><span class="bullet">-</span> Chat communautaire</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------MOCKUPS SCOOTEO------ -->
+        <img src="assets/img/mockup_scooteo.png" alt="mockups scooteo" class="mockups mb60">
+
+        <!-- ------AUTRES PROJETS------ -->
+        <div class="projets container mb60">
+            <h2 class="t-center mb30">Autres Projets</h2>
+
+            <div class="row no-gutters">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="assets/img/realisations/automotoboutic.jpg" alt="automotoboutic">
+                    <a href="#" class="text">
+                        <p class="title">Automotoboutic</p>
+                        <p class="description">Site e-commerce</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="assets/img/realisations/hd_soudage.png" alt="HD  Soudage">
+                    <a href="#" class="text">
+                        <p class="title">HD Soudage</p>
+                        <p class="description">Site e-commerce</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="assets/img/realisations/terrasse2mobilhome.jpg" alt="Terrasse2mobilhome">
+                    <a href="#" class="text">
+                        <p class="title">Terrasse2mobilhome</p>
+                        <p class="description">Site web</p>
+                    </a>
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="assets/img/realisations/chausport.jpg" alt="Chausport">
+                    <a href="#" class="text">
+                        <p class="title">Chausport</p>
+                        <p class="description">Blog</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------FOOTER------ -->
+    <footer id="footer">
+        <div class="footer pt30 pb30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-12 d-flex m-auto justify-content-center mb-responsive">
+                        <img src="assets/img/logo-vertical-white.png" alt="logo lemon  interactive">
+                    </div>
+                    <div class="col-md-3 col-sm-12 mb-responsive">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6 col-6 d-flex mb20">
+                                <div>
+                                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="title">
+                                        Agence de Lille
+                                    </p>
+                                    <p>
+                                        1 Bvd de Valmy
+                                    </p>
+                                    <p>
+                                        59650 Vil. d'Ascq
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-6 col-6 d-flex">
+                                <div>
+                                    <i class="fas fa-phone fa-lg"></i>
+                                </div>
+                                <div>
+                                    <p>
+                                        +33 (0)3 20 45 95 84
+                                    </p>
+                                    <a href="#">
+                                        Contacter Lemon Lille
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 mb-responsive">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6 col-6 d-flex mb20">
+                                <div>
+                                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="title">
+                                        Agence de Paris
+                                    </p>
+                                    <p>
+                                        29 Rue Drouot
+                                    </p>
+                                    <p>
+                                        75009 Paris
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-6 col-6 d-flex">
+                                <div>
+                                    <i class="fas fa-phone fa-lg"></i>
+                                </div>
+                                <div>
+                                    <p>
+                                        +33 (0)1 42 93 33 52
+                                    </p>
+                                    <a href="#">
+                                        Contacter Lemon Paris
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <p class="title mb20">
+                            Suivez notre actualité
+                        </p>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" aria-describedby="inputGroup-sizing-default" placeholder="Email">
+                            <div class="input-group-prepend">
+                                <a href="#" class="input-group-text" id="inputGroup-sizing-default">S'inscrire</a>
+                            </div>
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="legals pt15 pb15">
+            <a href="#" class="lemon">Lemon Interactive votre partenaire e-business | Agence Google Partner</a>
+            <div class="d-flex justify-content-center white">
+                <a href="#">Plan du site</a>
+                <p>|</p>
+                <a href="#">Mentions légales</a>
+                <p>|</p>
+                <a href="#">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/script/js/scripts.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
+</body>
+
+</html>
