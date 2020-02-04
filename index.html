@@ -90,11 +90,11 @@
 
     <div id="content">
         <!-- ------HEADER------ -->
-        <div class="header mb60">
+        <div class="lozad header mb60" data-background-image="assets/img/header-lemon-interactive.png">
             <div class="container full-height">
                 <div class="row full-height">
                     <div class="col-md-5 col-sm-7 align-self-center p-initial">
-                        <img src="assets/img/scooteo-logo.png" alt="scooteo logo" class="logo-scooteo mb50">
+                        <img data-src="assets/img/scooteo-logo.png" alt="scooteo logo" class="lozad logo-scooteo mb50">
                         <div class="flex">
                             <a href="#" class="link">Acquisition</a>
                             <a href="#" class="link">Site B2C</a>
@@ -146,7 +146,7 @@
 
         <!-- ------VIDEO MOCKUP------ -->
         <video autoplay muted loop class="mb60 d-flex justify-content-center">
-            <source src="assets/video/mockup-desktop.mp4" type="video/mp4">
+            <source src="assets/video/mockup-desktop.mp4" data-src="assets/video/mockup-desktop.mp4" type="video/mp4">
         </video>
 
         <!-- ------PARTICULARITES------ -->
@@ -168,7 +168,7 @@
         </div>
 
         <!-- ------MOCKUPS SCOOTEO------ -->
-        <img src="assets/img/mockup_scooteo.png" alt="mockups scooteo" class="mockups mb60">
+        <img data-src="assets/img/mockup_scooteo.png" alt="mockups scooteo" class="lozad mockups mb60">
 
         <!-- ------AUTRES PROJETS------ -->
         <div class="projets container mb60">
@@ -176,14 +176,14 @@
 
             <div class="row no-gutters">
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="assets/img/realisations/automotoboutic.jpg" alt="automotoboutic">
+                    <img data-src="assets/img/realisations/automotoboutic.jpg" alt="automotoboutic" class="lozad">
                     <a href="#" class="text">
                         <p class="title">Automotoboutic</p>
                         <p class="description">Site e-commerce</p>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="assets/img/realisations/hd_soudage.png" alt="HD  Soudage">
+                    <img data-src="assets/img/realisations/hd_soudage.png" alt="HD Soudage" class="lozad">
                     <a href="#" class="text">
                         <p class="title">HD Soudage</p>
                         <p class="description">Site e-commerce</p>
@@ -191,7 +191,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="assets/img/realisations/terrasse2mobilhome.jpg" alt="Terrasse2mobilhome">
+                    <img data-src="assets/img/realisations/terrasse2mobilhome.jpg" alt="Terrasse2mobilhome" class="lozad">
                     <a href="#" class="text">
                         <p class="title">Terrasse2mobilhome</p>
                         <p class="description">Site web</p>
@@ -199,7 +199,7 @@
 
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="assets/img/realisations/chausport.jpg" alt="Chausport">
+                    <img data-src="assets/img/realisations/chausport.jpg" alt="Chausport" class="lozad">
                     <a href="#" class="text">
                         <p class="title">Chausport</p>
                         <p class="description">Blog</p>
@@ -215,7 +215,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 col-sm-12 d-flex m-auto justify-content-center mb-responsive">
-                        <img src="assets/img/logo-vertical-white.png" alt="logo lemon  interactive">
+                        <img data-src="assets/img/logo-vertical-white.png" alt="logo lemon interactive" class="lozad">
                     </div>
                     <div class="col-md-3 col-sm-12 mb-responsive">
                         <div class="row">
@@ -315,6 +315,11 @@
         </div>
     </footer>
 
+<!-- IntersectionObserver polyfill -->
+<script src="https://raw.githubusercontent.com/w3c/IntersectionObserver/master/polyfill/intersection-observer.js"></script>
+
+<!-- Lozad.js from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/lozad"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="assets/script/js/scripts.js"></script>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>

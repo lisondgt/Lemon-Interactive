@@ -1,3 +1,7 @@
+// Initialize library
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
+
 // NAVBAR
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
