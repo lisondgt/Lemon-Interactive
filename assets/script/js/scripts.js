@@ -1,5 +1,10 @@
 // Initialize library
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+const observer = lozad('.lozad', {
+    loaded: function(el) {
+        // Custom implementation on a loaded element
+        el.classList.add('loaded');
+    }
+});
 observer.observe();
 
 // NAVBAR

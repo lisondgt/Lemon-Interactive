@@ -26,6 +26,16 @@ module.exports = function(grunt) {
           }]
         }
       },
+      uglify: {
+        options: {
+          mangle: false
+        },
+        my_target: {
+          files: {
+            'assets/script/js-min/scripts.min.js': ['assets/script/js/scripts.js']
+          }
+        }
+      },
       watch: {
         css: {
           files: '**/**/**/*.scss',
@@ -34,11 +44,16 @@ module.exports = function(grunt) {
         cssmin: {
             files: 'assets/style/css/*.css',
             tasks: ['cssmin']
+        },
+        uglify: {
+          files: '**/**/**/*.js',
+          tasks: ['uglify']
         }
       }
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-uglify-es');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default',['watch']);
   }
